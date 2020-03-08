@@ -1,0 +1,88 @@
+/*===========Layout Section================*/
+body{
+    background-color: gray;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+
+ h3{
+     font-size: 20px;
+     color: rgb(4, 8, 63);
+ }
+  
+  #header{
+      background-color: rgb(132, 163, 182);
+      margin: 10px;
+      border-radius: 5px;
+      height: 90px;
+  }
+  #navbar{
+      background-color: rgb(132, 163, 182);
+      margin: 10px;
+      border-radius: 5px;
+      height: 35px;
+  }
+  
+  .main{
+      background-color: beige;
+      margin-top: 10px;
+      margin-right: 320px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+      padding: 20px;
+      font-size: 110%;
+      border-radius: 5px;
+      width: auto;
+      height: 400px;
+  }
+  
+  h1{
+      color: red;
+      font-size: 120%;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  h2{
+      color: darkblue;
+      font-size: 120%;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .sideright{
+      background-color: beige;
+      margin-top: 0px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+      padding: 20px;
+      font-size: 105%;
+      border-radius: 5px;
+      float: right;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      width: 260px;
+      clear: right;
+  }
+  .imageside{
+      background-color: beige;
+      margin-top: 0px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      border-radius: 5px;
+      float: right;
+      width: 300px;
+      clear: right;
+      opacity: 1.0;
+      transition: opacity 0.5s ease-in-out;
+  }
+  
+  .imageside:hover{
+      opacity:0.4;
+  }
+  
+  #footer{
+      margin: 10px;
+      border-radius: 5px;
+      background-color: rgb(132, 163, 182);
+      height: 60px;
+      clear: both;
+  }
